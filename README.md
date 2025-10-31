@@ -1,16 +1,17 @@
-# FP&A Scenario Model (2023–2024)
+# Business Scenario Calculator
 ## Purpose
-This FP&A model evaluates and visualizes financial performance under three business scenarios — **Base**, **Optimistic**, and **Pessimistic** — for the 2023–2024 period.
-It measures revenue, operating expenses, profitability, and margin variations to support strategic decision-making.
+This academic analytical model simulates and visualizes business performance under three scenarios — **Base**, **Optimistic**, and **Pessimistic** — for the 2023–2024 period.
+It measures revenue, operating expenses, profitability, and margin variations to demonstrate how scenario modeling can support data-driven decision-making.
 
 ## Structure
 Sheets:
-Calculations — core dataset and formulas. Contains monthly data for all revenue and expense categories by scenario.
-Summary — interactive dashboard displaying aggregated results and visuals by selected scenario.
+- Calculations - core dataset and formulas containing monthly data for all revenue and expense categories by scenario.
+- Summary - interactive dashboard displaying aggregated results and visuals for the selected scenario.
 
 ## Core Logic
 Each scenario (Base / Optimistic / Pessimistic) is calculated independently in Calculations with its own adjustment parameters.
-The Summary sheet dynamically aggregates results through the scenario dropdown using SUMIF() formulas.
+The Summary sheet dynamically aggregates results via the scenario dropdown using SUMIF() formulas.
+
 **Key computations**:
 - Revenue = Fees + Interest + Other
 - OPEX = Salaries + Operations + Marketing + IT + Other
@@ -39,5 +40,5 @@ The model highlights:
 
 ## Implementation Notes
 Fully compatible with Google Sheets and Microsoft Excel.
-No macros, add-ins, or scripts used.
-Designed for use in FP&A, investment analysis, and executive reporting contexts.
+No macros, add-ins, or scripts required.
+Developed for educational and analytical demonstration purposes — not intended for corporate FP&A or investment reporting.
